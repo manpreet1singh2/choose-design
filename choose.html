@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plywood & Wooden Frames • Website Design Samples</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .hero-font { font-family: 'Playfair Display', serif; }
+        .wood-bg { background: linear-gradient(135deg, #3f2a1e 0%, #5c4033 100%); }
+        .card-hover { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card-hover:hover { transform: translateY(-8px); box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25); }
+    </style>
+</head>
+<body class="bg-[#f8f1e3] text-[#3f2a1e]">
+    <!-- HEADER -->
+    <header class="wood-bg text-white py-8">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-[#d4a373] rounded-xl flex items-center justify-center text-2xl">🌲</div>
+                <div>
+                    <h1 class="hero-font text-3xl font-bold tracking-tight">TimberForge</h1>
+                    <p class="text-sm opacity-75 -mt-1">Plywood • Laminates • Wooden Frames</p>
+                </div>
+            </div>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#samples" class="hover:text-[#d4a373] transition">Design Samples</a>
+                <a href="#brief" class="hover:text-[#d4a373] transition">Your Custom Brief</a>
+                <a href="#contact" class="hover:text-[#d4a373] transition">Contact Us</a>
+            </div>
+            <button onclick="window.scrollTo({top: document.getElementById('samples').offsetTop, behavior: 'smooth'})"
+                    class="bg-[#d4a373] hover:bg-[#c38f4f] text-[#3f2a1e] px-8 py-3 rounded-2xl font-semibold text-sm transition">
+                CHOOSE YOUR DESIGN →
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="bg-white py-20 border-b border-[#d4a373]/20">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <div class="inline-flex items-center gap-2 bg-[#f0e4d0] text-[#5c4033] px-5 py-2 rounded-full text-sm font-medium mb-6">
+                🌍 Global Export Ready • B2B + B2C
+            </div>
+            <h2 class="hero-font text-6xl font-bold leading-none mb-6 text-[#3f2a1e]">
+                Choose Your Website Design
+            </h2>
+            <p class="max-w-2xl mx-auto text-xl text-[#5c4033]">
+                Premium Framer templates curated for your plywood & wooden frames business.<br>
+                All designs are modern, responsive, and ready for global shipping & bulk orders.
+            </p>
+            <div class="mt-10 flex flex-wrap justify-center gap-4 text-sm">
+                <div class="flex items-center gap-2 bg-white shadow px-5 py-3 rounded-3xl">
+                    <span class="text-green-600">✔</span> Natural Wood Colors
+                </div>
+                <div class="flex items-center gap-2 bg-white shadow px-5 py-3 rounded-3xl">
+                    <span class="text-green-600">✔</span> Industrial Premium Look
+                </div>
+                <div class="flex items-center gap-2 bg-white shadow px-5 py-3 rounded-3xl">
+                    <span class="text-green-600">✔</span> Fully Working Demo
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SAMPLES SECTION -->
+    <section id="samples" class="max-w-7xl mx-auto px-6 py-20">
+        <div class="flex justify-between items-end mb-12">
+            <div>
+                <span class="uppercase tracking-[3px] text-[#8c6f47] text-sm font-medium">12 Premium Options</span>
+                <h3 class="hero-font text-5xl font-bold text-[#3f2a1e]">Pick Your Style</h3>
+            </div>
+            <p class="max-w-xs text-right text-[#5c4033]">
+                Click any card → opens live demo.<br>
+                All mobile-friendly + cart + inquiry forms ready.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Sample 1 -->
+            <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl border border-[#d4a373]/10">
+                <div class="h-52 bg-[#3f2a1e] flex items-center justify-center text-white/70 text-6xl">🌲</div>
+                <div class="p-8">
+                    <h4 class="font-semibold text-xl mb-1">Sincere Encounter</h4>
+                    <p class="text-[#8c6f47] text-sm mb-6">Clean interior-style layout with big visuals</p>
+                    <a href="https://sincere-encounter-454582.framer.app/" target="_blank"
+                       class="block w-full bg-[#3f2a1e] text-white text-center py-4 rounded-2xl font-medium hover:bg-[#5c4033] transition">
+                        VIEW LIVE DEMO →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sample 2 -->
+            <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl border border-[#d4a373]/10">
+                <div class="h-52 bg-gradient-to-br from-[#8c6f47] to-[#3f2a1e] flex items-center justify-center text-white/70 text-6xl">🪨</div>
+                <div class="p-8">
+                    <h4 class="font-semibold text-xl mb-1">Lithos Stones</h4>
+                    <p class="text-[#8c6f47] text-sm mb-6">Material-focused, stone/wood industrial feel</p>
+                    <a href="https://lithos.framer.website/stones" target="_blank"
+                       class="block w-full bg-[#3f2a1e] text-white text-center py-4 rounded-2xl font-medium hover:bg-[#5c4033] transition">
+                        VIEW LIVE DEMO →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sample 3 -->
+            <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl border border-[#d4a373]/10">
+                <div class="h-52 bg-[#111] flex items-center justify-center text-white/70 text-6xl">🎧</div>
+                <div class="p-8">
+                    <h4 class="font-semibold text-xl mb-1">Morae Shopiframe</h4>
+                    <p class="text-[#8c6f47] text-sm mb-6">Ultra-premium minimalist + add to cart (headphones style)</p>
+                    <a href="https://morae-shopiframe.framer.website/" target="_blank"
+                       class="block w-full bg-[#3f2a1e] text-white text-center py-4 rounded-2xl font-medium hover:bg-[#5c4033] transition">
+                        VIEW LIVE DEMO →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sample 4 -->
+            <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl border border-[#d4a373]/10">
+                <div class="h-52 bg-[#f8f1e3] flex items-center justify-center text-[#3f2a1e] text-6xl">🛍️</div>
+                <div class="p-8">
+                    <h4 class="font-semibold text-xl mb-1">Minna E-commerce</h4>
+                    <p class="text-[#8c6f47] text-sm mb-6">Clean shopping layout with filters</p>
+                    <a href="https://minna.framer.website/" target="_blank"
+                       class="block w-full bg-[#3f2a1e] text-white text-center py-4 rounded-2xl font-medium hover:bg-[#5c4033] transition">
+                        VIEW LIVE DEMO →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sample 5 -->
+            <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl border border-[#d4a373]/10">
+                <div class="h-52 bg-gradient-to-br from-amber-900 to-amber-700 flex items-center justify-center text-white/70 text-6xl">📦</div>
+                <div class="p-8">
+                    <h4 class="font-semibold text-xl mb-1">Ordinary Ecom</h4>
+                    <p class="text-[#8c6f47] text-sm mb-6">Straightforward modern store (perfect for bulk products)</p>
+                    <a href="https://ordinary-ecom.framer.website/" target="_blank"
+                       class="block w-full bg-[#3f2a1e] text-white text-center py-4 rounded-2xl font-medium hover:bg-[#5c4033] transition">
+                        VIEW LIVE DEMO →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sample 6 -->
+            <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl border border-[#d4a373]/10">
+                <div class="h-52 bg-[#1a1a1a] flex items-center justify-center text-white/70 text-6xl">🪚</div>
+                <div class="p-8">
+                    <h4 class="font-semibold text-xl mb-1">Kotr</h4>
+                    <p class="text-[#8c6f47] text-sm mb-6">Bold industrial design</p>
+                    <a href="https://kotr.framer.website/" target="_blank"
+                       class="block w-full bg-[#3f2a1e] text-white text-center py-4 rounded-2xl font-medium hover:bg-[#5c4033] transition">
+                        VIEW LIVE DEMO →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sample 7 -->
+            <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl border border-[#d4a373]/10">
+                <div class="h-52 bg-[#d4a373] flex items-center justify-center text-white/70 text-6xl">📏</div>
+                <div class="p-8">
+                    <h4 class="font-semibold text-xl mb-1">Rawline</h4>
+                    <p class="text-[#8c6f47] text-sm mb-6">Raw & natural material vibe</p>
+                    <a href="https://rawline.framer.website/" target="_blank"
+                       class="block w-full bg-[#3f2a1e] text-white text-center py-4 rounded-2xl font-medium hover:bg-[#5c4033] transition">
+                        VIEW LIVE DEMO →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sample 8 -->
+            <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl border border-[#d4a373]/10">
+                <div class="h-52 bg-white border border-[#d4a373] flex items-center justify-center text-[#3f2a1e] text-6xl">💄</div>
+                <div class="p-8">
+                    <h4 class="font-semibold text-xl mb-1">Cometica</h4>
+                    <p class="text-[#8c6f47] text-sm mb-6">Luxury clean e-commerce</p>
+                    <a href="https://cometica.framer.website/" target="_blank"
+                       class="block w-full bg-[#3f2a1e] text-white text-center py-4 rounded-2xl font-medium hover:bg-[#5c4033] transition">
+                        VIEW LIVE DEMO →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sample 9 -->
+            <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl border border-[#d4a373]/10">
+                <div class="h-52 bg-[#111827] flex items-center justify-center text-white/70 text-6xl">⚡</div>
+                <div class="p-8">
+                    <h4 class="font-semibold text-xl mb-1">Altech</h4>
+                    <p class="text-[#8c6f47] text-sm mb-6">Tech-industrial premium</p>
+                    <a href="https://altech.framer.website/" target="_blank"
+                       class="block w-full bg-[#3f2a1e] text-white text-center py-4 rounded-2xl font-medium hover:bg-[#5c4033] transition">
+                        VIEW LIVE DEMO →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sample 10 -->
+            <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl border border-[#d4a373]/10">
+                <div class="h-52 bg-[#f8f1e3] flex items-center justify-center text-[#3f2a1e] text-6xl">📦</div>
+                <div class="p-8">
+                    <h4 class="font-semibold text-xl mb-1">Produck</h4>
+                    <p class="text-[#8c6f47] text-sm mb-6">Product catalog heavy layout</p>
+                    <a href="https://produck.framer.website/" target="_blank"
+                       class="block w-full bg-[#3f2a1e] text-white text-center py-4 rounded-2xl font-medium hover:bg-[#5c4033] transition">
+                        VIEW LIVE DEMO →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sample 11 -->
+            <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl border border-[#d4a373]/10">
+                <div class="h-52 bg-[#3f2a1e] flex items-center justify-center text-white/70 text-6xl">🌊</div>
+                <div class="p-8">
+                    <h4 class="font-semibold text-xl mb-1">Velaa</h4>
+                    <p class="text-[#8c6f47] text-sm mb-6">Elegant & premium feel</p>
+                    <a href="https://velaa.framer.website/" target="_blank"
+                       class="block w-full bg-[#3f2a1e] text-white text-center py-4 rounded-2xl font-medium hover:bg-[#5c4033] transition">
+                        VIEW LIVE DEMO →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sample 12 -->
+            <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl border border-[#d4a373]/10">
+                <div class="h-52 bg-[#d4a373] flex items-center justify-center text-white/70 text-6xl">✨</div>
+                <div class="p-8">
+                    <h4 class="font-semibold text-xl mb-1">Charmant</h4>
+                    <p class="text-[#8c6f47] text-sm mb-6">Luxury & charming design</p>
+                    <a href="https://charmant.framer.website/" target="_blank"
+                       class="block w-full bg-[#3f2a1e] text-white text-center py-4 rounded-2xl font-medium hover:bg-[#5c4033] transition">
+                        VIEW LIVE DEMO →
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- YOUR CUSTOM BRIEF -->
+    <section id="brief" class="bg-[#3f2a1e] text-white py-20">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <span class="bg-[#d4a373] text-[#3f2a1e] px-6 py-2 rounded-3xl text-sm font-semibold">YOUR REQUIREMENT</span>
+            </div>
+            <h3 class="hero-font text-5xl font-bold text-center mb-10">We will build exactly this for you</h3>
+            
+            <div class="bg-white/10 backdrop-blur-xl rounded-3xl p-10 text-[#f8f1e3]">
+                <ul class="space-y-6 text-lg">
+                    <li class="flex gap-4">
+                        <span class="text-3xl">🏠</span>
+                        <div>Home Page – Hero with plywood images, company intro, featured products</div>
+                    </li>
+                    <li class="flex gap-4">
+                        <span class="text-3xl">📦</span>
+                        <div>Products Page – Categories: Plywood sheets, Laminates, Wooden frames, Timber boards + filters (size, thickness, material)</div>
+                    </li>
+                    <li class="flex gap-4">
+                        <span class="text-3xl">🔍</span>
+                        <div>Product Detail – High-quality images, specs, sizes, thickness, price, bulk order option</div>
+                    </li>
+                    <li class="flex gap-4">
+                        <span class="text-3xl">🏭</span>
+                        <div>About Us – Manufacturing capability & company profile</div>
+                    </li>
+                    <li class="flex gap-4">
+                        <span class="text-3xl">📦</span>
+                        <div>Wholesale/Bulk Order section for international buyers</div>
+                    </li>
+                    <li class="flex gap-4">
+                        <span class="text-3xl">📞</span>
+                        <div>Contact + Inquiry form for distributors</div>
+                    </li>
+                    <li class="flex gap-4">
+                        <span class="text-3xl">📖</span>
+                        <div>Blog/Resources – Plywood quality tips</div>
+                    </li>
+                </ul>
+                <div class="mt-12 pt-8 border-t border-white/20 text-center text-sm opacity-75">
+                    Colors: Natural wood (brown, beige, white) + dark green accents<br>
+                    Style: Clean, modern, industrial premium • Fully responsive • Global shipping + cart + inquiry
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+            <h3 class="hero-font text-5xl font-bold mb-4">Ready to choose?</h3>
+            <p class="text-xl text-[#5c4033] mb-10">Reply with the sample name/number you like most (or mix 2-3 styles). We'll build your exact plywood website in 7-10 days on Framer.</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button onclick="alert('Thank you! Client has selected a design. We will now build your plywood website 🔥')"
+                        class="bg-[#3f2a1e] text-white px-12 py-6 rounded-3xl text-xl font-semibold hover:bg-[#5c4033]">
+                    I HAVE CHOSEN MY DESIGN
+                </button>
+                <a href="https://wa.me/919876543210?text=Hi%20I%20like%20sample%20number%20___" 
+                   target="_blank"
+                   class="border-2 border-[#3f2a1e] text-[#3f2a1e] px-12 py-6 rounded-3xl text-xl font-semibold hover:bg-[#3f2a1e] hover:text-white transition">
+                    WhatsApp My Choice
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#3f2a1e] text-white/70 py-12 text-center text-sm">
+        Made with ❤️ for your plywood business • All demos are live & clickable • 
+        <span class="text-[#d4a373]">Copy this file & send to client</span>
+    </footer>
+
+    <script>
+        tailwind.config = {
+            content: [],
+            theme: { extend: {} }
+        }
+    </script>
+</body>
+</html>
